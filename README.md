@@ -2,7 +2,7 @@
 
 The goal of this study to develop a recommender system that can take into account the changes in individual tastes over time, using Amazon fine food reviews data (https://www.kaggle.com/snap/amazon-fine-food-reviews). The Amazon reviews data includes more than 10 years of reviews provided by more than 250,000 users. The figure below shows the distribution of the number of times (log transformed) that reviewers provided feedback.
 
-![Reviewers_Count](https://github.com/farzadalemi/Springboard_Capstone/blob/master/EDA/reviewers_count.png =480x288)
+<img src="https://github.com/farzadalemi/Springboard_Capstone/blob/master/EDA/reviewers_count.png" width="480" height="228">
 
 This data also provides other information about user’s review, user’s rating, number of time users found the review helpful, number of time users found the review helpful or not, and time stamp for review.  With respect to the number of products, there are 74258 unique products in this dataset. Figure below shows the distribution of the count products with by a number of reviews (log transformed).
 
