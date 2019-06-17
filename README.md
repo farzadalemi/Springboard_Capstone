@@ -2,11 +2,11 @@
 
 The goal of this study to develop a recommender system that can take into account the changes in individual tastes over time, using Amazon fine food reviews data (https://www.kaggle.com/snap/amazon-fine-food-reviews). The Amazon reviews data includes more than 10 years of reviews provided by more than 250,000 users. The figure below shows the distribution of the number of times (log transformed) that reviewers provided feedback.
 
-![Reviewers_Count](https://github.com/farzadalemi/Springboard_Capstone/blob/master/EDA/reviewers_count.png = 480x288)
+![Reviewers_Count](https://github.com/farzadalemi/Springboard_Capstone/blob/master/EDA/reviewers_count.png =480x288)
 
 This data also provides other information about user’s review, user’s rating, number of time users found the review helpful, number of time users found the review helpful or not, and time stamp for review.  With respect to the number of products, there are 74258 unique products in this dataset. Figure below shows the distribution of the count products with by a number of reviews (log transformed).
 
-![Reviews per product](https://github.com/farzadalemi/Springboard_Capstone/blob/master/EDA/reviewes_per_product.png = 480x288)
+![Reviews per product](https://github.com/farzadalemi/Springboard_Capstone/blob/master/EDA/reviewes_per_product.png =480x288)
 
 After basic data cleaning and wrangling, I plan to conduct several analyses on the reviews data (saved as .txt format), including but not limited to sentiment analysis and clustering using various text mining and NLP techniques. This process will help me to prepare my dataset to be used in the next analysis, development of a recommender system. To develop a recommender system I will start with testing several basic models-based collaborative filtering as well as content-based approaches and later move to a more complicated deep neural network based recommendation algorithms, in particular, the use of RNNs to model the temporal dynamics and sequential evolution of content information which treats the recommendation problem as a sequential prediction problem. Given the past interaction, I will estimate which item the user is most likely to like in the next time step. Finally, since deep neural networks are flexible, I plan to use more than one deep learning techniques by combining several neural building blocks together and building a more powerful hybrid model (if time allows).
 
