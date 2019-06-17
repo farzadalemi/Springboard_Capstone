@@ -4,7 +4,7 @@ The goal of this study to develop a recommender system that can take into accoun
 
 <img src="https://github.com/farzadalemi/Springboard_Capstone/blob/master/EDA/reviewers_count.png" width="480" height="228">
 
-This data also provides other information about user’s review, user’s rating, number of time users found the review helpful, number of time users found the review helpful or not, and time stamp for review.  With respect to the number of products, there are 74258 unique products in this dataset. Figure below shows the distribution of the count products with by a number of reviews (log transformed).
+This data also provides other information about user’s review, user’s rating, number of time users found the review helpful, number of time users found the review helpful or not, and time stamp for review.  With respect to the number of products, there are 74258 unique products in this dataset. Figure below shows the distribution of the products by number of reviews (log transformed).
 
 <img src="https://github.com/farzadalemi/Springboard_Capstone/blob/master/EDA/reviewes_per_product.png" width="480" height="228">
 
