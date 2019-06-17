@@ -1,4 +1,4 @@
-# Hyper Personalization of the Recommender System: A Case study of Amazon Fine Food
+# Hyper Personalization of the Recommender System: A Case Study of Amazon Fine Food
 
 The goal of this study to develop a recommender system that can take into account the changes in individual tastes over time, using Amazon fine food reviews data (https://www.kaggle.com/snap/amazon-fine-food-reviews). The Amazon reviews data includes more than 10 years of reviews provided by more than 250,000 users. The figure below shows the distribution of the number of times (log transformed) that reviewers provided feedback.
 
